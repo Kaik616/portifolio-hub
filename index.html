@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaik Soares | PortfólioHUB</title>
+    <style>
+        :root {
+            --primary: #24292e;
+            --accent: #0366d6;
+            --background: #f6f8fa;
+            --text: #2f363d;
+            --white: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { margin: 0.5rem 0 0 0; opacity: 0.8; }
+        main {
+            max-width: 800px;
+            width: 90%;
+            margin: 2rem 0;
+        }
+        .card {
+            background-color: var(--white);
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .card h2 { margin-top: 0; color: var(--primary); }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background 0.2s;
+        }
+        .btn:hover { background-color: #024ea4; }
+        footer {
+            margin-top: auto;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #586069;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kaik Soares</h1>
+        <p>Estudante de Engenharia de Software | Bootcamp I</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Portal Central (Google Sites)</h2>
+            <p>Acesse a interface de gestão do PortfólioHUB desenvolvida no Google Sites, contendo relatórios, cronogramas e apresentações integradas.</p>
+            <a href="https://sites.google.com/view/kaik-soares/página-inicial" target="_blank" class="btn">Visitar Google Sites</a>
+        </section>
+
+        <section class="card">
+            <h2>Artefatos de Gestão e Carreira</h2>
+            <p>Consulte os documentos oficiais que compõem a fundação do projeto, hospedados de forma segura no Google Workspace.</p>
+            <div style="display: flex; gap: 10px;">
+                <a href="https://docs.google.com/document/d/1bD4-_4AVWTFcEklSU36MIRkPpNhbErZLSqfnCPDhuUM/edit?usp=sharing" target="_blank" class="btn" style="background-color: #28a745;">Ver Currículo (Docs)</a>
+                <a href="https://docs.google.com/presentation/d/1eruuu1Td1-yv6DoQCY-kJ8nTiho9oOkXug84ZfQWORw/edit?usp=sharing" target="_blank" class="btn" style="background-color: #e0a800; color: #24292e;">Ver Apresentação (Slides)</a>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Segurança e Governança</h2>
+            <p>Repositório protegido com regras estritas de Branch Protection (regras ativadas na branch <code>main</code>), garantindo conformidade com as orientações de segurança da IA Gemini.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Kaik Soares. Desenvolvido para a Entrega Final de Bootcamp I.</p>
+    </footer>
+
+</body>
+</html>
